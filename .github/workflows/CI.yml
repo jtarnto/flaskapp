@@ -37,7 +37,7 @@ jobs:
     - name: Docker Build & Push Action
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: joshua1231/pythonapp:pyapp
+        image: joshua1231/pythonapp
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
